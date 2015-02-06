@@ -62,7 +62,7 @@
       completeResult = results.join('');
       results = [];
       results.push('%c%s');
-      results.push('font-family: Comic Sans MS; line-height: 2em; font-size: 1.5em; color: ' + randomColor());
+      results.push('font-family: Comic Sans MS; line-height: 2em; font-size: 1.5em; color: ' + randomColor() + ';');
       results.push(completeResult);
     }
 
